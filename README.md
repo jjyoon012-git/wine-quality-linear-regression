@@ -40,6 +40,20 @@ Streamlit을 활용하여 Linear Regression의 두 가지 최적화 방법을 �
 
 ---
 
+## 실험 결과 요약
+
+| Method | MSE | MAE | RMSE | R² | Time (s) | Settings |
+|:--------|:------:|:------:|:------:|:------:|:------:|:-----------------------------|
+| **Direct Solution (Ridge λ=0.1)** | 0.5412 | 0.5644 | 0.7357 | 0.2672 | 0.0090 | degree=1, λ=0.1 |
+| **Gradient Descent (lr=0.01, epoch=1000)** | 0.5426 | 0.5653 | 0.7366 | 0.2654 | 2.6418 | degree=1, lr=0.01, epochs=1000 |
+
+> 두 모델의 오차 지표 차이는 0.3% 미만으로 매우 유사했으며,  
+> Ridge Regularization이 적용된 Direct Solution은 수치적으로 안정적인 결과를 도출하였습니다.  
+> 반면 Gradient Descent는 반복 계산으로 시간이 오래 걸리지만,  
+> 대규모 데이터에서는 더 효율적인 확장성을 가질 수 있습니다.
+
+---
+
 ## How to Use
 
 ```bash
