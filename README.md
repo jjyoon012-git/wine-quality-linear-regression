@@ -35,7 +35,7 @@ Streamlit을 활용하여 Linear Regression의 두 가지 최적화 방법을 �
 - **Feature Mapping**: Polynomial feature 확장을 통한 비선형 관계 학습  
 - **Streamlit UI**:  
   - Sidebar에서 **Learning rate** 및 **Feature mapping 차수** 실시간 조절  
-  - MSE, MAE, RMSE, R² 등 다양한 평가지표 자동 계산  
+  - MSE, MAE, RMSE, R² 를 활용한 다양한 평가지표 자동 계산  
   - 학습곡선(Convergence) 및 예측결과 시각화  
 
 ---
