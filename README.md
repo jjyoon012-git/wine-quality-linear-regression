@@ -43,7 +43,7 @@ Streamlit을 활용하여 Linear Regression의 두 가지 최적화 방법을 �
 ## How to Use
 
 ```bash
-git clone https://github.com/your-username/wine-quality-linear-regression.git
+git clone https://github.com/jjyoon012-git/wine-quality-linear-regression.git
 cd wine-quality-linear-regression
 pip install -r requirements.txt
 streamlit run mldlhw1.py
